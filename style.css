@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	margin: 50px 0;
+}
+
+.gameboard {
+	width: 315px;
+	height: 310px;
+	margin: auto;
+	clear: both;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 80px;
+}
+
+#box1, #box2, #box4, #box5 {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#box7, #box8 {
+	border-right: 1px solid black;
+}
+
+#box3, #box6 {
+	border-bottom: 1px solid black;
+}
+
+.reset {
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+
+#win {
+	font-family: Helvetica;
+	font-size: 40px;
+	text-align: center;
+}
